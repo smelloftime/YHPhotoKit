@@ -354,8 +354,12 @@ static NSString *CellIdentifier = @"YHPhotoBrowserCollectionViewCell";
 - (UIButton *)selectButton {
     if (!_selectButton) {
         _selectButton = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 42, 12.5, 23, 23)];
-        [_selectButton setBackgroundImage:[UIImage imageNamed:@"yh_image_no_picked"] forState:UIControlStateNormal];
-        [_selectButton setBackgroundImage:[UIImage imageNamed:@"yh_image_picked"] forState:UIControlStateSelected];
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"YHPhotoKit" ofType:@"bundle"];
+        UIImage *image1 = [UIImage imageNamed:[NSString stringWithFormat:@"%@/yh_image_no_picked", path]];
+        UIImage *image2 = [UIImage imageNamed:[NSString stringWithFormat:@"%@/yh_image_picked", path]];
+
+        [_selectButton setBackgroundImage:image1 forState:UIControlStateNormal];
+        [_selectButton setBackgroundImage:image2 forState:UIControlStateSelected];
         [_selectButton addTarget:self action:@selector(selectButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _selectButton;

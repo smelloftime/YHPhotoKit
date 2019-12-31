@@ -74,10 +74,13 @@
 
 - (UIButton *)seletStatusButton {
     if (!_seletStatusButton) {
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"YHPhotoKit" ofType:@"bundle"];
+        UIImage *image1 = [UIImage imageNamed:[NSString stringWithFormat:@"%@/yh_image_no_picked", path]];
+        UIImage *image2 = [UIImage imageNamed:[NSString stringWithFormat:@"%@/yh_image_picked", path]];
         _seletStatusButton = [[UIButton alloc] initWithFrame:CGRectMake(self.contentView.frame.size.width - 33, 6, 27, 27)];
         [_seletStatusButton addTarget:self action:@selector(selectedStatusChange:) forControlEvents:UIControlEventTouchUpInside];
-        [_seletStatusButton setBackgroundImage:[UIImage imageNamed:@"yh_image_no_picked"] forState:UIControlStateNormal];
-        [_seletStatusButton setBackgroundImage:[UIImage imageNamed:@"yh_image_picked"] forState:UIControlStateSelected];
+        [_seletStatusButton setBackgroundImage:image1 forState:UIControlStateNormal];
+        [_seletStatusButton setBackgroundImage:image2 forState:UIControlStateSelected];
     }
     return _seletStatusButton;
 }

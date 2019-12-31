@@ -7,6 +7,7 @@
 //
 
 #import "YHPhotoModel.h"
+#import <UIKit/UIKit.h>
 
 @implementation YHPhotoModel
 
