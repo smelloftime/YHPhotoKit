@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'YHPhotoKit/**/*'
-  # s.resources = 'Assets'
+  s.resources    = "YHPhotoKit/YHPhotoKit/*.{png,bundle}"
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'

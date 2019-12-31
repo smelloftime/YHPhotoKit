@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88FBD3FF23BB27B6002CEFD6 /* YHPhotoKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88FBD3FE23BB27B6002CEFD6 /* YHPhotoKit.bundle */; };
 		B4223B841E9F5D8B009F7916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4223B831E9F5D8B009F7916 /* main.m */; };
 		B4223B871E9F5D8B009F7916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4223B861E9F5D8B009F7916 /* AppDelegate.m */; };
 		B4223B8A1E9F5D8B009F7916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4223B891E9F5D8B009F7916 /* ViewController.m */; };
@@ -23,13 +24,10 @@
 		B4223BBE1E9F5E7D009F7916 /* YHPhotoBrowserCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B4223BAD1E9F5E7D009F7916 /* YHPhotoBrowserCellLayout.m */; };
 		B4223BBF1E9F5E7D009F7916 /* YHPhotoBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4223BAF1E9F5E7D009F7916 /* YHPhotoBrowserCollectionViewCell.m */; };
 		B4223BC01E9F5E7D009F7916 /* YHSelectPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4223BB11E9F5E7D009F7916 /* YHSelectPhotoCollectionViewCell.m */; };
-		B4223BC11E9F5E7D009F7916 /* yh_image_no_picked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4223BB31E9F5E7D009F7916 /* yh_image_no_picked@2x.png */; };
-		B4223BC21E9F5E7D009F7916 /* yh_image_no_picked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4223BB41E9F5E7D009F7916 /* yh_image_no_picked@3x.png */; };
-		B4223BC31E9F5E7D009F7916 /* yh_image_picked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4223BB51E9F5E7D009F7916 /* yh_image_picked@2x.png */; };
-		B4223BC41E9F5E7D009F7916 /* yh_image_picked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4223BB61E9F5E7D009F7916 /* yh_image_picked@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88FBD3FE23BB27B6002CEFD6 /* YHPhotoKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YHPhotoKit.bundle; sourceTree = "<group>"; };
 		B4223B7F1E9F5D8B009F7916 /* YHPhotoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPhotoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4223B831E9F5D8B009F7916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4223B851E9F5D8B009F7916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,10 +58,6 @@
 		B4223BAF1E9F5E7D009F7916 /* YHPhotoBrowserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPhotoBrowserCollectionViewCell.m; sourceTree = "<group>"; };
 		B4223BB01E9F5E7D009F7916 /* YHSelectPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSelectPhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		B4223BB11E9F5E7D009F7916 /* YHSelectPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSelectPhotoCollectionViewCell.m; sourceTree = "<group>"; };
-		B4223BB31E9F5E7D009F7916 /* yh_image_no_picked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yh_image_no_picked@2x.png"; sourceTree = "<group>"; };
-		B4223BB41E9F5E7D009F7916 /* yh_image_no_picked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yh_image_no_picked@3x.png"; sourceTree = "<group>"; };
-		B4223BB51E9F5E7D009F7916 /* yh_image_picked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yh_image_picked@2x.png"; sourceTree = "<group>"; };
-		B4223BB61E9F5E7D009F7916 /* yh_image_picked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yh_image_picked@3x.png"; sourceTree = "<group>"; };
 		B4223BC51E9F5F5E009F7916 /* YHPhotoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPhotoKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,10 +178,7 @@
 		B4223BB21E9F5E7D009F7916 /* YHResources */ = {
 			isa = PBXGroup;
 			children = (
-				B4223BB31E9F5E7D009F7916 /* yh_image_no_picked@2x.png */,
-				B4223BB41E9F5E7D009F7916 /* yh_image_no_picked@3x.png */,
-				B4223BB51E9F5E7D009F7916 /* yh_image_picked@2x.png */,
-				B4223BB61E9F5E7D009F7916 /* yh_image_picked@3x.png */,
+				88FBD3FE23BB27B6002CEFD6 /* YHPhotoKit.bundle */,
 			);
 			path = YHResources;
 			sourceTree = "<group>";
@@ -233,6 +224,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -251,13 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4223BC11E9F5E7D009F7916 /* yh_image_no_picked@2x.png in Resources */,
+				88FBD3FF23BB27B6002CEFD6 /* YHPhotoKit.bundle in Resources */,
 				B4223B921E9F5D8B009F7916 /* LaunchScreen.storyboard in Resources */,
-				B4223BC41E9F5E7D009F7916 /* yh_image_picked@3x.png in Resources */,
 				B4223B8F1E9F5D8B009F7916 /* Assets.xcassets in Resources */,
-				B4223BC31E9F5E7D009F7916 /* yh_image_picked@2x.png in Resources */,
 				B4223B8D1E9F5D8B009F7916 /* Main.storyboard in Resources */,
-				B4223BC21E9F5E7D009F7916 /* yh_image_no_picked@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
